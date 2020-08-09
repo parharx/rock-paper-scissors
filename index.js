@@ -7,7 +7,7 @@ $($("button")[0]).click(function (){
 
     var randomNumber = Math.floor(Math.random() * 3 + 1);
     var randomImage = "img" + randomNumber + ".png";
-    
+
     var refresh = document.querySelectorAll("img")[1].setAttribute("src",randomImage);
 
     if (randomNumber === 2){
@@ -29,7 +29,7 @@ $($("button")[1]).click(function (){
     $($("img")[0]).attr("src","img2.png");
     var randomNumber = Math.floor(Math.random() * 3 + 1);
     var randomImage = "img" + randomNumber + ".png";
-   
+
     var refresh = document.querySelectorAll("img")[1].setAttribute("src",randomImage);
 
     if (randomNumber === 3){
@@ -51,7 +51,7 @@ $($("button")[2]).click(function (){
     $($("img")[0]).attr("src","img3.png");
     var randomNumber = Math.floor(Math.random() * 3 + 1);
     var randomImage = "img" + randomNumber + ".png";
-    
+
     var refresh = document.querySelectorAll("img")[1].setAttribute("src",randomImage);
 
     if (randomNumber === 1){
