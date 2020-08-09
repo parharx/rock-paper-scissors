@@ -3,12 +3,12 @@
 
 
 $($("button")[0]).click(function (){
-    $($("img")[0]).attr("src","image/img1.png");
+    $($("img")[0]).attr("src","img1.png");
 
     var randomNumber = Math.floor(Math.random() * 3 + 1);
     var randomImage = "img" + randomNumber + ".png";
-    var putImage = "image/" + randomImage;
-    var refresh = document.querySelectorAll("img")[1].setAttribute("src",putImage);
+    
+    var refresh = document.querySelectorAll("img")[1].setAttribute("src",randomImage);
 
     if (randomNumber === 2){
         $("h1").text("You Lost.💔")
@@ -26,11 +26,11 @@ $($("button")[0]).click(function (){
 });
 
 $($("button")[1]).click(function (){
-    $($("img")[0]).attr("src","image/img2.png");
+    $($("img")[0]).attr("src","img2.png");
     var randomNumber = Math.floor(Math.random() * 3 + 1);
     var randomImage = "img" + randomNumber + ".png";
-    var putImage = "image/" + randomImage;
-    var refresh = document.querySelectorAll("img")[1].setAttribute("src",putImage);
+   
+    var refresh = document.querySelectorAll("img")[1].setAttribute("src",randomImage);
 
     if (randomNumber === 3){
         $("h1").text("You Lost.💔")
@@ -48,11 +48,11 @@ $($("button")[1]).click(function (){
 });
 
 $($("button")[2]).click(function (){
-    $($("img")[0]).attr("src","image/img3.png");
+    $($("img")[0]).attr("src","img3.png");
     var randomNumber = Math.floor(Math.random() * 3 + 1);
     var randomImage = "img" + randomNumber + ".png";
-    var putImage = "image/" + randomImage;
-    var refresh = document.querySelectorAll("img")[1].setAttribute("src",putImage);
+    
+    var refresh = document.querySelectorAll("img")[1].setAttribute("src",randomImage);
 
     if (randomNumber === 1){
         $("h1").text("You Lost.💔")
